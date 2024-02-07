@@ -1,8 +1,8 @@
 print("-------------- Ejercicio 1 --------------")
-#valor_hora = int(input("Ingrese el valor hora del trabajador" ))
-#horas_trabajo = int(input("Ingrese la cantidad de horas trabajadas en el mes: "))
+valor_hora = int(input("Ingrese el valor hora del trabajador" ))
+horas_trabajo = int(input("Ingrese la cantidad de horas trabajadas en el mes: "))
 
-#print("El sueldo del trabajador es: %d dolares mensuales" %(valor_hora * horas_trabajo))
+print("El sueldo del trabajador es: %d dolares mensuales" %(valor_hora * horas_trabajo))
 
 print("-------------- Ejercicio 2 --------------")
 #monto_total = int(input("Ingrese el valor de la heladera"))
@@ -65,6 +65,7 @@ print("-------------- Ejercicio 8 --------------")
 print("-------------- Ejercicio 9 --------------")
 
 # ganancias = int(input("Ingrese las ganancias anuales:\n"))
+<<<<<<< HEAD
 # 
 # if ganancias <= 10000:
     # retenciones = 0
@@ -89,3 +90,68 @@ print("-------------- Ejercicio 10 --------------")
 
 
 print("-------------- Ejercicio 11 --------------")
+=======
+
+# if ganancias <= 10000:
+#     retenciones = 0
+# elif ganancias > 10000 and ganancias <= 15000:
+#     retenciones = 0.02 * (ganancias - 10000)
+# elif ganancias > 15000:
+#     retenciones = 300 + 0.05 * (ganancias - 15000)
+
+# print("Las retenciones totales a cobrar son de ", retenciones, ". pesos")
+
+print("-------------- Ejercicio 10 --------------")
+
+# print("Piense en MM, ML o LM")
+
+# homb_o_m = int(input("Su personaje es mujer? 1 si, 2 no:\n"))
+
+# if homb_o_m == 1:
+#     print("Esta pensando en ML")
+# else:
+#     profesion = int(input("Su personaje es futbolista? 1 si, 2 no:\n"))
+#     if profesion == 1:
+#         print("Esta pensando en LM")
+#     else:
+#         print("Esta pensando en MM")
+        
+print("-------------- Ejercicio 14 --------------")
+
+# mayor = int(input("Ingrese un numero de dos digitos:\n"))
+
+# unidad  = (mayor/10) % 1
+# decena = (mayor/10) // 1
+# decena2 = unidad * 100
+# final = decena + decena2
+
+
+# if mayor > 50:
+#     print(final)
+# else:
+#     print(unidad*10)
+
+print("-------------- Ejercicio 17 --------------")
+
+g1 = int(input("Ingrese primer grado:\n"))
+m1 = int(input("Ingrese primer minuto:\n"))
+s1 = int(input("primer segundo:\n"))
+
+g2 = int(input("g2:\n"))
+m2 = int(input("m2:\n"))
+s2 = int(input("segundo:\n"))
+
+
+g3 = g2 + g1
+m3 = m2 + m1
+s3 = s2 + s1
+
+if s3 >= 60:
+    s3 -= 60
+    m3 += 1
+if m3 >=60:
+    m3 -= 60
+    g3 +=1
+
+print(g3, m3, s3)
+>>>>>>> e20c3ea5fb80cca42af06b909b87436764710c38
