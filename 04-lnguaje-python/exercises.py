@@ -65,6 +65,32 @@ print("-------------- Ejercicio 8 --------------")
 print("-------------- Ejercicio 9 --------------")
 
 # ganancias = int(input("Ingrese las ganancias anuales:\n"))
+<<<<<<< HEAD
+# 
+# if ganancias <= 10000:
+    # retenciones = 0
+# elif ganancias > 10000 and ganancias <= 15000:
+    # retenciones = 0.02 * (ganancias - 10000)
+# elif ganancias > 15000:
+    # retenciones = 300 + 0.05 * (ganancias - 15000)
+# 
+# print("Las retenciones totales a cobrar son de ", retenciones, ". pesos")
+# 
+
+print("-------------- Ejercicio 10 --------------")
+
+# horas = int(input("Ingrese la cantidad de horas de estacionamiento:\n"))
+# minutos = int(input("Ingrese el numero de minutos:\n"))
+
+# costo = horas * 45
+# if minutos > 15 or horas == 0:
+#     costo += 45
+
+# print("El costo final es de ", costo)
+
+
+print("-------------- Ejercicio 11 --------------")
+=======
 
 # if ganancias <= 10000:
 #     retenciones = 0
@@ -128,3 +154,4 @@ if m3 >=60:
     g3 +=1
 
 print(g3, m3, s3)
+>>>>>>> e20c3ea5fb80cca42af06b909b87436764710c38
